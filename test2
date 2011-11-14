@@ -1,0 +1,15 @@
+ead the swap function in "swap.c".
+
+
+You should write some code in the body of "swap" 
+and make it swap `a' and `b' in `main'.
+
+We are NOT passing the address of `a' and `b' to the
+swap function.
+
+Use your knowledge of C internals to write the body of swap.
+
+[Note: this is strictly for fun! Don't ever write
+code like this]
+
+

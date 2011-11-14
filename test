@@ -1,0 +1,41 @@
+
+1) Write a function to test whether a list has a loop
+   in it. Do this by storing addresses of already visited
+   nodes in an array and searching the array for each new
+   visit. (Try to avoid using globals. Write extra functions if
+   required).
+
+
+2) Modify the code in tree.c so that it will work with
+   the following "main":
+
+   main()
+   {
+	   struct node *h = 0;
+           char s[100];
+           while(scanf("%s", s) != EOF)
+		h = insert(h, new(s));
+   }
+
+
+3) Complete "encode.c"
+
+
+4) Let's say I have a struct:
+
+   struct foo {
+	int m, k;
+	int t;
+	int x, y;
+   };
+
+   I want a macro which will give me offset of a field; let's say
+   I wish to get offsetof `t', I will call:
+
+   offset_of(struct foo, t)
+
+   this will give me 8.
+
+   Define this macro.
+
+
